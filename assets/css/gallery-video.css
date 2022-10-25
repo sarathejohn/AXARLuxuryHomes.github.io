@@ -212,3 +212,8 @@
 .pb-row {
     margin-bottom: 10px;
 }
+.youtube-video{
+  padding: 20px;
+  max-width: 100%;
+  height: auto;
+}
