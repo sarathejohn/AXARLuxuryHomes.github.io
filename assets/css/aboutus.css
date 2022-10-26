@@ -183,6 +183,7 @@
       transform: translate(85px, 0%);
     }
   }
+
   /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -360,109 +361,54 @@
   }
   
   
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team {
-    background: url("../img/hero-image.jpg") center center no-repeat;
-    background-size: cover;
+
+  
+  .animate__animated{
+    color: whitesmoke;
+  }
+  section {
     padding: 60px 0;
-    position: relative;
-  }
-  
-  .team::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.75);
-    z-index: 9;
-  }
-  
-  .team .container {
-    position: relative;
-    z-index: 10;
-  }
-  
-  .team .member {
-    text-align: center;
-    margin-bottom: 80px;
-    position: relative;
-    padding: 20px;
-  }
-  
-  .team .member .pic {
     overflow: hidden;
   }
   
-  .team .member .member-info {
-    position: absolute;
-    top: 85%;
-    left: 20px;
-    right: 20px;
-    background: #fff;
-    padding: 20px 0;
-    color: #364146;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    max-height: 95px;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
+  .section-bg {
+    background-color: #1a1814;
   }
   
-  .team .member:hover .member-info {
-    max-height: 300px;
+  .section-title {
+    padding-bottom: 40px;
   }
   
-  .team .member h4 {
-    font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #364146;
-    position: relative;
-    padding-bottom: 10px;
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
   }
   
-  .team .member h4::after {
+  .section-title h2::after {
     content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
+    width: 120px;
     height: 1px;
-    background: #b5c1c6;
-    bottom: 0;
-    left: calc(50% - 25px);
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 4px 10px;
   }
   
-  .team .member span {
-    font-style: italic;
-    display: block;
-    font-size: 13px;
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #cda45e;
   }
-  
-  .team .member .social {
-    margin-top: 15px;
+
+  .animate__animated{
+    color: whitesmoke;
   }
-  
-  .team .member .social a {
-    transition: color 0.3s;
-    color: #627680;
-  }
-  
-  .team .member .social a:hover {
-    color: #009cea;
-  }
-  
-  .team .member .social i {
-    font-size: 16px;
-    margin: 0 2px;
-  }
-  
-  @media (max-width: 992px) {
-    .team .member {
-      margin-bottom: 110px;
-    }
-  }
-  
-  

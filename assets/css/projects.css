@@ -377,12 +377,7 @@ i:hover{
 
 
               
-  #container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-  }
+
               
   #carousel, #navigation {
       flex: initial;
@@ -391,12 +386,16 @@ i:hover{
               
   #carousel {
       overflow: hidden;
-      width: 90%;
-      height: 400px;
+      width: 100%;
+      height: 800px;
       border-radius: 4px;
       background-color: #fff;
   }
-              
+     p{
+      padding: 2px;
+      color: black;
+      text-align: justify;
+     }         
   .p-wrapper {
       position: relative;
       width: 100%;
@@ -433,8 +432,9 @@ i:hover{
   }
               
   #navigation {
-      margin-left: 24px;
-      display: flex;
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
   }
   
   [class^="label_"] {
@@ -595,3 +595,6 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 
 input:checked + .slide-container .nav label { display: block; }
+.animate__animated{
+  color: whitesmoke;
+}

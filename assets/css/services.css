@@ -215,4 +215,6 @@
   .featured-members .content p:last-child {
     margin-bottom: 0;
   }
-  
+  .animate__animated{
+    color: whitesmoke;
+  }

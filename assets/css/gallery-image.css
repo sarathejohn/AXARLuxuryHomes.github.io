@@ -407,3 +407,7 @@
       transform: rotate(0deg);
     }
   } */
+
+  .animate__animated{
+    color: whitesmoke;
+  }

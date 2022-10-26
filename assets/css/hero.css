@@ -1,0 +1,56 @@
+
+ .hero {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.hero:before, .hero:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.hero:before {
+    background: url('../img/hero-image.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    filter: sepia(0.25) grayscale(0.1);
+}
+.hero:after {
+    background: linear-gradient(to right, #d24335 55%, #6e4cd2);
+    opacity: 0.5;
+}
+.hero--content {
+    font-size: 4rem;
+    line-height: 1.4em;
+    color: #fff;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero--text {
+    font-family: 'Lato';
+    font-weight: 700;
+    background: rgba(0, 0, 0, .85);
+    padding: 0.08em 1rem;
+    box-decoration-break: clone;
+}
+.content {
+    max-width: 800px;
+    width: 100%;
+    margin: 2rem auto;
+    display: block;
+}
+p {
+    font-size: 1.4rem;
+    line-height: 1.4em;
+    margin-bottom: 1.6rem;
+}
+
